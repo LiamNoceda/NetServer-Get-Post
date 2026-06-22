@@ -1,0 +1,40 @@
+# Системные файлы macOS 
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotbackup
+
+# Артефакты сборки C++ и CMake
+build/
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+CMakeUserPresets.json
+cmake_install.cmake
+Makefile
+targets/
+*.a
+*.o
+*.so
+*.dylib
+*.out
+
+# Исполняемые файлы проекта (Бинарники)
+server
+
+# Настройки сред разработки (IDE)
+.vscode/
+!.vscode/extensions.json
+
+.idea/
+*.iws
+*.iml
+
+*.xcodeproj/
+*.xcworkspace/
